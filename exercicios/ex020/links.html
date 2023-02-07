@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+        a:hover {
+            color:black;
+            text-decoration: underline;
+        }
+        a:active {
+            color:yellow;
+        }
+        a::before{
+            content: '» ';
+            text-decoration: none;
+            font-weight: normal;
+            color: #83888dab;
+        }
+        a::after {
+            content: ' «';
+            text-decoration: none;
+            font-weight: normal;
+            color: #83888dab;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Link</h1>
+    <ul type="square">
+        <li>
+            <a href="https://www.instagram.com/jotap_009" target="_blank" rel="external">Instagram</a>
+        </li>
+
+        <li>
+            <a href="https://github.com/Jooox" target="_blank" rel="external">Repositório GitHub</a>
+        </li>
+
+        <li>
+            <a href="https://www.facebook.com/alex.keno.58" target="_blank" rel="external">Facebook</a>
+        </li>
+    </ul>
+</body>
+</html>
